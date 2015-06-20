@@ -1,0 +1,18 @@
+[
+  {
+    "repository": "android_device_samsung_trlte-common",
+    "target_path": "device/samsung/trlte-common"
+  },
+  {
+    "repository": "android_device_qcom_common",
+    "target_path": "device/qcom/common"
+  },
+  {
+    "repository": "android_device_samsung_qcom-common",
+    "target_path": "device/samsung/qcom-common"
+  },
+  {
+    "repository": "android_kernel_samsung_trlte",
+    "target_path": "kernel/samsung/trlte"
+  }
+]

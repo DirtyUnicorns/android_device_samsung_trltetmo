@@ -1,18 +1,27 @@
 [
   {
-    "repository": "android_device_samsung_trlte-common",
-    "target_path": "device/samsung/trlte-common"
+    "repository":  "DirtyUnicorns/android_device_samsung_trlte-common",
+    "target_path": "device/samsung/trlte-common",
+    "branch":      "lollipop-caf"
   },
   {
-    "repository": "android_device_qcom_common",
-    "target_path": "device/qcom/common"
+    "repository":  "DirtyUnicorns/android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "branch":      "lollipop-caf"
   },
   {
-    "repository": "android_device_samsung_qcom-common",
-    "target_path": "device/samsung/qcom-common"
+    "repository":  "DirtyUnicorns/android_device_samsung_qcom-common",
+    "target_path": "device/samsung/qcom-common",
+    "branch":      "lollipop-caf"
   },
   {
-    "repository": "android_kernel_samsung_trlte",
-    "target_path": "kernel/samsung/trlte"
+    "repository":  "DirtyUnicorns/android_kernel_samsung_trlte",
+    "target_path": "kernel/samsung/trlte",
+    "branch":      "lollipop-caf"
+  },
+  {
+    "repository":  "DirtyUnicorns/android_vendor_samsung",
+    "target_path": "vendor/samsung",
+    "branch":      "lollipop-caf"
   }
 ]

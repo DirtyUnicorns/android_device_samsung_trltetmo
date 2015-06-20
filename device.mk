@@ -24,3 +24,7 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/trltetmo/overlay
 
 # common trlte
 $(call inherit-product, device/samsung/trlte-common/trlte.mk)
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sf.lcd_density=560 \
+    ro.du.updater=trltetmo

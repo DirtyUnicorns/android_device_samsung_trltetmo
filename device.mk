@@ -28,3 +28,9 @@ $(call inherit-product, device/samsung/trlte-common/trlte.mk)
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=560 \
     ro.du.updater=trltetmo
+
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/selinux/file_contexts:recovery/root/prebuilt_file_contexts \
+	$(LOCAL_PATH)/init.recovery.qcom.rc:root/init.recovery.qcom.rc \
+	$(LOCAL_PATH)/twrp.fstab:recovery/root/etc/twrp.fstab \
+        $(LOCAL_PATH)/fstab.qcom:recovery/root/fstab.qcom
